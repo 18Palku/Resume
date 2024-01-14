@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: rgba(16, 236, 31, 0.541);
+        text-align: center;
+        padding: 3px;
+      }
+      footer {
+        background-color: rgba(12, 24, 13, 0.541);
+        text-align: center;
+        padding: 1px;
+      }
+      nav {
+        /* margin: 2em 0; */
+        padding: 1em;
+        background-color: black;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 100px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      main {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em;
+      }
+      section {
+        flex-grow: 4;
+        padding: 2em;
+        background-color: white;
+      }
+      aside {
+        flex-grow: 1;
+        margin-left: 2em;
+        padding: 1em;
+        background-color: white;
+      }
+      body {
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Webpage Example</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <article>
+          <h2>Welcome to my webpage</h2>
+          <p>
+            This is an example webpage designed to demonstrate the application
+            of various HTML elements and CSS styling.
+          </p>
+          <br />
+          <p>
+            Feel free to examine the code and utilize it as a template or
+            reference for your own web development projects.Ypur feedback is
+            always welcome!
+          </p>
+        </article>
+        <article
+          style="
+            background-color: rgba(111, 189, 215, 0.377);
+            height: 120px;
+            width: 300px;
+          "
+        >
+          <h3 style="text-align: center">Related Items</h3>
+          <ul>
+            <li>
+              <a href="item1 "> item1</a>
+            </li>
+            <li>
+              <a href="item2">item2</a>
+            </li>
+            <li><a href="item3">item3</a></li>
+          </ul>
+        </article>
+      </section>
+      <aside>
+        <h3>Subscribe to our Newsletter</h3>
+        <label>Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Email here "
+          style="padding: 5px; border-radius: 20px; width: 180px"
+        />
+        <input
+          type="button"
+          value="Subscribe"
+          style="
+            border-radius: 20px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            font-size: 12px;
+            border: none;
+          "
+        />
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy;2024 My website</p>
+    </footer>
+  </body>
+</html>
