@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="This is the description of web page" />
+    <meta name="Keyword" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Palak" />
+    <link rel="stylesheet" href="Practical4.css" />
+    <title>Document</title>
+    <style>
+      header {
+        text-align: center;
+      }
+      nav {
+        padding: 1em;
+        background-color: rgb(115, 115, 171);
+      }
+      nav a {
+        margin-left: 5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: 900;
+      }
+
+      main {
+        display: flex;
+        margin: 30px;
+        font-size: 18px;
+      }
+
+      aside img {
+        background-color: rgb(171, 82, 82);
+        height: 15em;
+        width: 10em;
+
+        border: 1px solid black;
+      }
+      .heading th {
+        font-size: 25px;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+      .first {
+        font-size: larger;
+      }
+      .second {
+        font-size: large;
+      }
+      .third {
+        font-size: medium;
+      }
+      body {
+        background-image: url("./imag/bg.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+      }
+      section {
+        padding-right: 100px;
+      }
+
+      footer {
+        background-color: rgba(21, 82, 152, 0.541);
+        text-align: center;
+        width: 100%;
+        /* position: relative; */
+        bottom: 0px;
+        margin: 0px;
+      }
+      table {
+        margin: auto;
+        margin-bottom: 4rem;
+      }
+      .icon {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+      }
+      .icon li {
+        padding-left: 20px;
+        background-image: url("./imag/favorite.png");
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      p {
+        margin: 4px;
+        text-align: left;
+      }
+      .ft {
+        text-align: center;
+      }
+      .link {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Palak Bharti</h1>
+    </header>
+
+    <nav>
+      <a href="About ">About</a>
+      <a href="My Hobbies & projects ">My Hobbies & Projects</a>
+      <a href="Contact ">Contact</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>About My Self</h2>
+        <p>
+          Hello, I'm Palak Bharti, a B.Tech graduate passionate about web and
+          app development. My expertise includes using React, React Native, and
+          MySQL to create innovative solutions. Recently achieving a 55% score
+          in ServiceNow certification reflects my commitment to continuous
+          learning. I've successfully deployed projects like the "Local BT"
+          mobile app, enhancing commuting experiences with real-time bus
+          schedules and notifications. In the "Exam Fee Manager," I integrated
+          APIs, designed intuitive interfaces, and implemented data
+          visualization for usability.
+        </p>
+      </section>
+
+      <aside>
+        <img src="imag\meeee.jpg" />
+      </aside>
+    </main>
+    <table border="2">
+      <tr class="heading">
+        <th>My Hobbies</th>
+        <th>My Projects</th>
+      </tr>
+      <tr class="first">
+        <td>Making Content for my youtube channel</td>
+        <td>Local BT- Local Bus Timing Mobile App (Aug 2023 - Sep 2023)</td>
+      </tr>
+      <tr class="second">
+        <td>Cooking</td>
+        <td>Exam Fee Manager (April 2023- Nov 2023)</td>
+      </tr>
+      <tr class="third">
+        <td>learning new things</td>
+        <td>Bharti Electronics (July 2022 - Aug 2022)</td>
+      </tr>
+    </table>
+
+    <footer>
+      <p class="ft" style="margin: 7px">&copy;2024 My website</p>
+      <ul class="icon">
+        <li>
+          <p>
+            this is my favourite website:->
+            <strong><a href="//github.com/" class="link">github.com</a></strong>
+          </p>
+        </li>
+        <li><p>*******00</p></li>
+      </ul>
+    </footer>
+  </body>
+</html>
