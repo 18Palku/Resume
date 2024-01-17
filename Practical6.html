@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This is my page">
+    <meta name="keywords" content="HTML,CSS,JS">
+<meta name="author" content="Palak Bharti">
+<link rel="shortcut icon" href="../Images/favicon-32x32.png" type="image/x-icon">
+ <!-- Playfair Font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+ <!-- stylesheet -->
+ <link rel="stylesheet" href="Assignment5.css">
+ <script src="https://kit.fontawesome.com/c1d02a8e15.js" crossorigin="anonymous"></script>
+    <title>Assignment 5</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px;
+    margin-top: 2px;
+    font-size: 19px;
+}
+
+nav a{
+    color: rgb(72, 64, 64);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    
+}
+.flex div{
+    width: 280px;
+    /* border: 2px solid black; */
+    padding: 5px;
+}
+
+.flex p{
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    line-height: 15px;
+   
+}
+
+#text{
+    font-weight: 300;
+    text-align: center;
+    line-height: 10
+    px;
+    font-size: 14px;
+}
+
+.house1:hover{
+    background-image: linear-gradient(to top, rgb(0, 255, 72),rgb(45, 86, 174),rgb(29, 198, 224));
+    color: white;
+    transition: 1s ease-in-out ;
+}
+
+.house2:hover{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 72),rgb(45, 86, 174),rgb(29, 198, 224));
+    color: white;
+    transition: 1s ease-in-out ;
+}
+.house3:hover{
+    background-image: linear-gradient(to top, rgb(0, 255, 72),rgb(45, 86, 174),rgb(29, 198, 224));
+    color: white;
+    transition: 1s ease-in-out ;
+}
+
+.house4:hover{
+    background-image: linear-gradient(to bottom,rgb(0, 255, 72),rgb(45, 86, 174),rgb(29, 198, 224));
+    color: white;
+    transition: 1s ease-in-out ;
+}
+
+    </style>
+</head>
+<body>
+   <nav>
+    <a href=""><i class="fa-solid fa-bars"></i></a>
+    <a href="">Home Design</a>
+    <a href="">Mail</a>
+   </nav>
+<div class="flex">
+  <div class="house1">
+<img src="../imag/home1.jpg" alt="" width="280" height="300">
+<p>City Chic Living <p>
+
+<p id="text">Discover urban living at its finest in this stylish oasis.  </p>
+    <p id="text">Floor-to-ceiling windows, modern decor, and vibrant accents make this home a sophisticated escape in the heart of the city.</p>
+  </div>
+  <div class="house2">
+    <img src="../imag/home2.webp" alt="" width="280" height="300">
+    <p>Blue Horizon Bliss<p>
+    <p>This Steak</p>
+    <p id="text">Elevate your space with the calming allure of blue walls.  </p>
+    <p id="text">The serene ambiance created by this soothing hue transforms any room into a haven of tranquility.</p>
+  </div>
+  <div class="house3">
+    <img src="../imag/home3.jpeg" alt="" width="280" height="300">
+    <p> Classic Charm with Nature </p>
+    <p id="text">Experience classic allure in this home boasting mesmerizing sea and mountain views.
+        
+    </p>
+    <p id="text">  The timeless design pairs seamlessly with nature's beauty, offering a serene escape that combines classic charm with breathtaking scenery.</p>
+  </div>
+  <div class="house4">
+    <img src="../imag/home4.jpeg" alt="" width="280" height="300">
+    <p>Modern Simplicity</p>
+   
+    <p id="text">Experience the perfect blend of modern style and simplicity in this chic home.  </p>
+    <p id="text"> Clean lines, neutral hues, and minimalist decor create an atmosphere of contemporary elegance throughout every room.</p>
+  </div>
+</div>
+</body>
+</html>
